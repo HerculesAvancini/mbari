@@ -1,12 +1,12 @@
-package com.nomealuno.demoacmeap.repository;
+package com.herculesavancini.demoacmeap.repository;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.nomealuno.demoacmeap.domain.Cliente;
-import com.nomealuno.demoacmeap.domain.Instalacao;
+import com.herculesavancini.demoacmeap.domain.Cliente;
+import com.herculesavancini.demoacmeap.domain.Instalacao;
 
 public interface InstalacaoRepository extends JpaRepository<Instalacao, Long> {
 

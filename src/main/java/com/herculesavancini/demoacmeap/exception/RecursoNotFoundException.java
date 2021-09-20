@@ -1,4 +1,4 @@
-package com.nomealuno.demoacmeap.exception;
+package com.herculesavancini.demoacmeap.exception;
 
 public class RecursoNotFoundException extends RuntimeException {
 
